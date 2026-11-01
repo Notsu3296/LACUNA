@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+# 開発用の世界観・謎解き資料は公開リポジトリに含めない
+SPECIFICATION.md
+WORLD_BUILDING.md
+ARTIFACT_DESIGN.md
+DEVELOPMENT_PLAN.md
+DECISIONS.md
