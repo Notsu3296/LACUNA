@@ -8,3 +8,10 @@ WORLD_BUILDING.md
 ARTIFACT_DESIGN.md
 DEVELOPMENT_PLAN.md
 DECISIONS.md
+
+# ローカル用の説明・依存管理ファイル
+README.md
+LIBRARIES.md
+package.json
+package-lock.json
+vendor/.gitkeep
