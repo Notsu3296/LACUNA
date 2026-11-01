@@ -13,3 +13,16 @@ python -m http.server 4174 --bind 127.0.0.1
 空間には操作対象が隠されており、観測光を重ねると姿と光点が現れます。光点にポインタを重ねると「移動」または「資料閲覧」が表示されます。Tabキーでも対象を選択できます。移動先と資料は動作確認用の試作です。
 
 この試作はWebGL 2のシェーダーで漂う構造物と移動先の惑星を描画しています。高品質設定は描画解像度の切替です。展示室および正式な遺物はまだ制作していません。
+
+## GitHub Pagesへの更新
+
+公開先は [THE SILENT ARCHIVE](https://notsu3296.github.io/LACUNA/) です。変更を確認してコミットし、`main` ブランチをプッシュするとGitHub Pagesが自動で更新されます。
+
+```powershell
+git status
+git add .
+git commit -m "変更内容"
+git push
+```
+
+世界観や謎の詳細を含む開発資料は `.gitignore` に指定しており、通常の `git add .` では公開されません。公開の状況は [Actions](https://github.com/Notsu3296/LACUNA/actions) で確認できます。
